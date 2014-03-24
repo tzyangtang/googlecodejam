@@ -1,4 +1,4 @@
-package com.tzyangtang.googlecodejam.minimumscalarproduct;
+package com.tzyangtang.googlecodejam.practice.minimumscalarproduct;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
