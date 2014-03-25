@@ -1,4 +1,4 @@
-package com.tzyangtang.googlecodejam.practive.milkshakes;
+package com.tzyangtang.googlecodejam.practice.milkshakes;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

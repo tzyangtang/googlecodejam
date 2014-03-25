@@ -1,4 +1,4 @@
-package com.tzyangtang.googlecodejam.pracitce.storecredit;
+package com.tzyangtang.googlecodejam.practice.storecredit;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

@@ -1,4 +1,4 @@
-package com.tzyangtang.googlecodejam.practive.reversewords;
+package com.tzyangtang.googlecodejam.practice.reversewords;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

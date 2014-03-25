@@ -1,4 +1,4 @@
-package com.tzyangtang.googlecodejam.practive.milkshakes;
+package com.tzyangtang.googlecodejam.practice.milkshakes;
 
 import java.util.Map;
 
