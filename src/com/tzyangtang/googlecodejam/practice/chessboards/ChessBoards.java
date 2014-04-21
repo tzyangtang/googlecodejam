@@ -6,13 +6,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
-
-import com.sun.jndi.url.iiopname.iiopnameURLContextFactory;
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 public class ChessBoards {
 
@@ -223,6 +218,44 @@ public class ChessBoards {
 			}
 			System.out.print("\n");
 		}
+	}
+	
+	public static class Cell {
+		// 0 = black, 1 = white 
+		boolean white;
+		boolean taken;
+		int x;
+		int y;
+		int maxSize;
+		
+		public int getMaxSize() {
+			return maxSize;
+		}
+		public void setMaxSize(int maxSize) {
+			this.maxSize = maxSize;
+		}
+		public void setTaken(boolean taken) {
+			this.taken = taken;
+		}
+		public int getX() {
+			return x;
+		}
+		public int getY() {
+			return y;
+		}
+		public boolean isWhite() {
+			return white;
+		}
+		public boolean isTaken() {
+			return taken;
+		}
+		public Cell(int x, int y, boolean white) {
+			super();
+			this.x = x;
+			this.y = y;
+			this.white = white;
+		}
+		
 	}
 
 }
